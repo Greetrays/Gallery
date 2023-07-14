@@ -18,7 +18,6 @@ public class ImageLoader : MonoBehaviour
 
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
         for (int i = 1; i <= _imageCount; i++)
         {
             _url.Add($"http://data.ikppbb.com/test-task-unity-data/pics/{i}.jpg");
